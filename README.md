@@ -50,4 +50,4 @@ O bot não pode rolar dados com um número de rolagens maior que 100.
 
 O bot não pode rolar dados com um tipo de dado diferente de 4, 6, 8, 10, 12, 20, ou 100.
 
-Se você encontrar algum bug ou tiver alguma sugestão, abra um problema no GitHub ([https://github.com/seu-nome-de-usuario/bot-de-rolar-dados-discord](https://github.com/seu-nome-de-usuario/bot-de-rolar-dados-discord)).
+Se você encontrar algum bug ou tiver alguma sugestão, abra um problema no GitHub ([https://github.com/bttex/bot_roller](https://github.com/bttex/bot_roller)).
