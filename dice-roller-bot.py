@@ -1,5 +1,11 @@
 import discord
 import random
+import os
+from dotenv import load_dotenv, dotenv_values
+
+load_dotenv()
+
+
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -40,5 +46,5 @@ async def on_message(message):
             await message.channel.send('Erro no comando. Certifique-se de usar o formato correto: $rolar XDY.')
 
 # Substitua 'YOUR_BOT_TOKEN' pelo token do seu bot
-client.run('################################')
+client.run(os.getenv('TOKEN'))
 
