@@ -1,2 +1,5 @@
 .env
 debug.log
+/projects/bot_roller/.vscode/settings.json
+.vscode
+.vscode/settings.json
